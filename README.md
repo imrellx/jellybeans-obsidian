@@ -2,7 +2,13 @@
 
 A dark theme for [Obsidian](https://obsidian.md) combining the classic **Jellybeans** color scheme with **Flexoki** backgrounds.
 
-![Jellybeans Theme Preview](screenshots/preview.png)
+## Screenshots
+
+![Headings, Code & Formatting](screenshots/scr-1.png)
+
+![Lists, Tables & Blockquotes](screenshots/scr-2.png)
+
+![Callouts](screenshots/scr-3.png)
 
 ## Features
 
