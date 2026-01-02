@@ -167,6 +167,7 @@
 
 .theme-dark .workspace-tab-header.is-active {
   background-color: var(--tab-background-active);
+  font-weight: 600;
 }
 
 /* ========================================
