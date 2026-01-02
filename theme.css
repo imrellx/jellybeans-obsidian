@@ -1,0 +1,182 @@
+/* ABOUTME: Jellybeans Obsidian theme - dark mode only
+   ABOUTME: Combines Jellybeans Vibrant accents with Flexoki dark backgrounds */
+
+.theme-dark {
+  /* ========================================
+     SECTION 1: Jellybeans Vibrant Palette
+     ======================================== */
+
+  --jb-red: #cc4d4d;
+  --jb-red-rgb: 204, 77, 77;
+  --jb-green: #99ad6a;
+  --jb-green-rgb: 153, 173, 106;
+  --jb-yellow: #fad07a;
+  --jb-yellow-rgb: 250, 208, 122;
+  --jb-blue: #8197bf;
+  --jb-blue-rgb: 129, 151, 191;
+  --jb-purple: #c6b6ee;
+  --jb-purple-rgb: 198, 182, 238;
+  --jb-cyan: #668799;
+  --jb-cyan-rgb: 102, 135, 153;
+  --jb-orange: #e6a75a;
+  --jb-orange-rgb: 230, 167, 90;
+  --jb-fg: #e8e8d3;
+  --jb-fg-rgb: 232, 232, 211;
+
+  /* Jellybeans Bright Variants */
+  --jb-bright-red: #902020;
+  --jb-bright-green: #70b950;
+  --jb-bright-yellow: #ffb964;
+  --jb-bright-blue: #8fbfdc;
+
+  /* ========================================
+     SECTION 2: Flexoki Dark Backgrounds
+     ======================================== */
+
+  --color-base-00: #100F0F;
+  --color-base-05: #100F0F;
+  --color-base-10: #1C1B1A;
+  --color-base-20: #1C1B1A;
+  --color-base-25: #282726;
+  --color-base-30: #282726;
+  --color-base-35: #343331;
+  --color-base-40: #403E3C;
+  --color-base-50: #575653;
+  --color-base-60: #6F6E69;
+  --color-base-70: #878580;
+  --color-base-100: #CECDC3;
+
+  /* ========================================
+     SECTION 3: Obsidian Foundation Variables
+     ======================================== */
+
+  /* Accent color (Jellybeans Blue) */
+  --accent-h: 220;
+  --accent-s: 35%;
+  --accent-l: 60%;
+
+  /* Background mappings */
+  --background-primary: var(--color-base-00);
+  --background-primary-alt: var(--color-base-10);
+  --background-secondary: var(--color-base-10);
+  --background-secondary-alt: var(--color-base-25);
+  --background-modifier-border: var(--color-base-35);
+  --background-modifier-form-field: var(--color-base-25);
+  --background-modifier-hover: var(--color-base-25);
+  --background-modifier-active-hover: var(--color-base-35);
+  --background-modifier-success: var(--jb-green);
+  --background-modifier-error: var(--jb-red);
+
+  /* Text mappings */
+  --text-normal: var(--color-base-100);
+  --text-muted: var(--color-base-70);
+  --text-faint: var(--color-base-60);
+  --text-on-accent: var(--color-base-00);
+  --text-error: var(--jb-red);
+  --text-success: var(--jb-green);
+  --text-warning: var(--jb-yellow);
+
+  /* Interactive colors */
+  --interactive-normal: var(--color-base-25);
+  --interactive-hover: var(--color-base-35);
+  --interactive-accent: var(--jb-blue);
+  --interactive-accent-hover: var(--jb-bright-blue);
+
+  /* ========================================
+     SECTION 4: Heading Colors (Rainbow)
+     ======================================== */
+
+  --h1-color: var(--jb-bright-blue);
+  --h2-color: var(--jb-purple);
+  --h3-color: var(--jb-green);
+  --h4-color: var(--jb-yellow);
+  --h5-color: var(--jb-orange);
+  --h6-color: var(--jb-cyan);
+
+  /* ========================================
+     SECTION 5: Syntax/Code Colors
+     ======================================== */
+
+  --code-background: var(--color-base-10);
+  --code-normal: var(--jb-fg);
+  --code-comment: var(--color-base-60);
+  --code-keyword: var(--jb-blue);
+  --code-function: var(--jb-yellow);
+  --code-string: var(--jb-green);
+  --code-operator: var(--jb-cyan);
+  --code-property: var(--jb-purple);
+  --code-tag: var(--jb-red);
+  --code-value: var(--jb-orange);
+
+  /* ========================================
+     SECTION 6: Tab Styling (QuillCode-style)
+     ======================================== */
+
+  --tab-radius-active: 10px;
+  --tab-curve: 10px;
+  --tab-text-color: var(--color-base-70);
+  --tab-text-color-focused: var(--color-base-100);
+  --tab-text-color-focused-active: var(--color-base-100);
+  --tab-background-active: var(--color-base-40);
+  --tab-container-background: var(--color-base-10);
+  --tab-divider-color: transparent;
+
+  /* ========================================
+     SECTION 7: Graph View Colors
+     ======================================== */
+
+  --graph-line: var(--color-base-40);
+  --graph-node: var(--jb-blue);
+  --graph-node-unresolved: var(--jb-red);
+  --graph-node-focused: var(--jb-yellow);
+  --graph-node-tag: var(--jb-purple);
+  --graph-node-attachment: var(--jb-green);
+
+  /* ========================================
+     SECTION 8: Semantic Colors
+     ======================================== */
+
+  --color-red: var(--jb-red);
+  --color-red-rgb: var(--jb-red-rgb);
+  --color-orange: var(--jb-orange);
+  --color-orange-rgb: var(--jb-orange-rgb);
+  --color-yellow: var(--jb-yellow);
+  --color-yellow-rgb: var(--jb-yellow-rgb);
+  --color-green: var(--jb-green);
+  --color-green-rgb: var(--jb-green-rgb);
+  --color-cyan: var(--jb-cyan);
+  --color-cyan-rgb: var(--jb-cyan-rgb);
+  --color-blue: var(--jb-blue);
+  --color-blue-rgb: var(--jb-blue-rgb);
+  --color-purple: var(--jb-purple);
+  --color-purple-rgb: var(--jb-purple-rgb);
+}
+
+/* ========================================
+   QuillCode-style Tab Selectors
+   ======================================== */
+
+.theme-dark .workspace-tab-header-container {
+  background-color: var(--tab-container-background);
+  padding-top: 4px;
+}
+
+.theme-dark .workspace-tab-header {
+  border-radius: var(--tab-radius-active) var(--tab-radius-active) 0 0;
+}
+
+.theme-dark .workspace-tab-header.is-active {
+  background-color: var(--tab-background-active);
+}
+
+/* ========================================
+   Inline Code Inversion (QuillCode technique)
+   ======================================== */
+
+.theme-dark .markdown-rendered code:not(pre code),
+.theme-dark .cm-s-obsidian span.cm-inline-code:not(.cm-formatting) {
+  color: var(--jb-fg);
+  background-color: var(--color-base-35);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
